@@ -1,0 +1,248 @@
+Mar  5 08:36:42 controlnode1 gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Mar  5 08:36:44 controlnode1 gnome-keyring-daemon[981]: The SSH agent was already initialized
+Mar  5 08:36:44 controlnode1 gnome-keyring-daemon[981]: The Secret Service was already initialized
+Mar  5 08:36:44 controlnode1 gnome-keyring-daemon[981]: The PKCS#11 component was already initialized
+Mar  5 08:36:48 controlnode1 polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.48 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_PH.UTF-8)
+Mar  5 08:36:44 controlnode1 dbus-daemon[607]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  5 08:37:23 controlnode1 sudo:   jhoana : TTY=pts/0 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  5 08:37:23 controlnode1 sudo:   jhoana : TTY=pts/0 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar  5 08:37:23 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 08:37:23 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 08:37:25 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 08:38:32 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 08:40:36 controlnode1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 08:40:36 controlnode1 pkexec[2457]: jhoana: Executing command [USER=root] [TTY=unknown] [CWD=/home/jhoana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  5 09:09:54 controlnode1 sshd[2990]: Accepted publickey for jhoana from 192.168.56.101 port 55382 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:09:54 controlnode1 sshd[2990]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:09:54 controlnode1 systemd-logind[636]: New session 3 of user jhoana.
+Mar  5 09:09:55 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-xodhtiifyfgaakpukspltluhpalvgaln ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709600994.4419913-3757-161988884629421/AnsiballZ_setup.py'
+Mar  5 09:09:55 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:09:57 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:09:57 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-kdgtuwcgckduewlgzualbvqmpspuxjud ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709600997.3273034-3798-107344791554739/AnsiballZ_apt.py'
+Mar  5 09:09:57 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:10:49 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:11:41 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ogjhpsvveixzvhsjcmjssdmrrxqmaeus ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709601101.0384986-3858-208986264102543/AnsiballZ_setup.py'
+Mar  5 09:11:41 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:11:42 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:12:42 controlnode1 sshd[3066]: Received disconnect from 192.168.56.101 port 55382:11: disconnected by user
+Mar  5 09:12:42 controlnode1 sshd[3066]: Disconnected from user jhoana 192.168.56.101 port 55382
+Mar  5 09:12:42 controlnode1 sshd[2990]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:12:42 controlnode1 systemd-logind[636]: Session 3 logged out. Waiting for processes to exit.
+Mar  5 09:12:42 controlnode1 systemd-logind[636]: Removed session 3.
+Mar  5 09:13:35 controlnode1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 09:13:35 controlnode1 pkexec[3728]: jhoana: Executing command [USER=root] [TTY=unknown] [CWD=/home/jhoana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  5 09:16:07 controlnode1 sshd[3835]: Accepted publickey for jhoana from 192.168.56.101 port 54276 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:16:07 controlnode1 sshd[3835]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:16:08 controlnode1 systemd-logind[636]: New session 4 of user jhoana.
+Mar  5 09:16:08 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-alxikgnlngghnivrdsipvitzmufawuct ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709601368.144263-4090-6241697494839/AnsiballZ_setup.py'
+Mar  5 09:16:08 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:16:09 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:16:09 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-quaqseeiztnsvrmergyhlluvfrwurdkr ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709601369.6817832-4117-2438565390039/AnsiballZ_apt.py'
+Mar  5 09:16:09 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:16:21 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:16:22 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jjnyeedkhybunsmaakcererwxskkbrli ; sudo dpkg --configure -a'
+Mar  5 09:16:22 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:16:22 controlnode1 sudo:     root : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  5 09:16:22 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=0)
+Mar  5 09:16:22 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:16:22 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:16:22 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-efasuklzranqdkvccjnrsbaqiplqwzgw ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709601382.3582165-4143-208840270044733/AnsiballZ_setup.py'
+Mar  5 09:16:22 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:16:23 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:16:35 controlnode1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 09:16:35 controlnode1 pkexec[4485]: jhoana: Executing command [USER=root] [TTY=unknown] [CWD=/home/jhoana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  5 09:17:01 controlnode1 CRON[4493]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  5 09:17:01 controlnode1 CRON[4493]: pam_unix(cron:session): session closed for user root
+Mar  5 09:17:23 controlnode1 sshd[3870]: Received disconnect from 192.168.56.101 port 54276:11: disconnected by user
+Mar  5 09:17:23 controlnode1 sshd[3870]: Disconnected from user jhoana 192.168.56.101 port 54276
+Mar  5 09:17:23 controlnode1 systemd-logind[636]: Session 4 logged out. Waiting for processes to exit.
+Mar  5 09:17:23 controlnode1 sshd[3835]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:17:23 controlnode1 systemd-logind[636]: Removed session 4.
+Mar  5 09:19:53 controlnode1 sudo:   jhoana : TTY=pts/0 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Mar  5 09:19:53 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 09:27:58 controlnode1 sshd[4522]: Accepted publickey for jhoana from 192.168.56.101 port 54172 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:27:58 controlnode1 sshd[4522]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:27:58 controlnode1 systemd-logind[636]: New session 6 of user jhoana.
+Mar  5 09:28:08 controlnode1 sshd[4557]: Received disconnect from 192.168.56.101 port 54172:11: disconnected by user
+Mar  5 09:28:08 controlnode1 sshd[4557]: Disconnected from user jhoana 192.168.56.101 port 54172
+Mar  5 09:28:08 controlnode1 systemd-logind[636]: Session 6 logged out. Waiting for processes to exit.
+Mar  5 09:28:08 controlnode1 sshd[4522]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:28:08 controlnode1 systemd-logind[636]: Removed session 6.
+Mar  5 09:30:01 controlnode1 CRON[4568]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  5 09:30:01 controlnode1 CRON[4568]: pam_unix(cron:session): session closed for user root
+Mar  5 09:31:00 controlnode1 sshd[4573]: Connection closed by authenticating user jhoana 192.168.56.101 port 59614 [preauth]
+Mar  5 09:31:00 controlnode1 sshd[4575]: Accepted publickey for jhoana from 192.168.56.101 port 59626 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:31:00 controlnode1 sshd[4575]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:31:00 controlnode1 systemd-logind[636]: New session 8 of user jhoana.
+Mar  5 09:31:00 controlnode1 sshd[4621]: Received disconnect from 192.168.56.101 port 59626:11: disconnected by user
+Mar  5 09:31:00 controlnode1 sshd[4621]: Disconnected from user jhoana 192.168.56.101 port 59626
+Mar  5 09:31:00 controlnode1 sshd[4575]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:31:00 controlnode1 systemd-logind[636]: Session 8 logged out. Waiting for processes to exit.
+Mar  5 09:31:00 controlnode1 systemd-logind[636]: Removed session 8.
+Mar  5 09:31:23 controlnode1 sshd[4633]: Accepted publickey for jhoana from 192.168.56.101 port 37074 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:31:23 controlnode1 sshd[4633]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:31:23 controlnode1 systemd-logind[636]: New session 9 of user jhoana.
+Mar  5 09:31:25 controlnode1 sshd[4670]: Received disconnect from 192.168.56.101 port 37074:11: disconnected by user
+Mar  5 09:31:25 controlnode1 sshd[4670]: Disconnected from user jhoana 192.168.56.101 port 37074
+Mar  5 09:31:25 controlnode1 systemd-logind[636]: Session 9 logged out. Waiting for processes to exit.
+Mar  5 09:31:25 controlnode1 sshd[4633]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:31:27 controlnode1 systemd-logind[636]: Removed session 9.
+Mar  5 09:31:49 controlnode1 sshd[4705]: Accepted publickey for jhoana from 192.168.56.101 port 59334 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:31:49 controlnode1 sshd[4705]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:31:49 controlnode1 systemd-logind[636]: New session 10 of user jhoana.
+Mar  5 09:31:50 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-itkdlzttttwkomopcdmovrfkkbwqzbmr ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602310.0404625-4484-221183734551945/AnsiballZ_setup.py'
+Mar  5 09:31:50 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:31:51 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:31:52 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-yblwgmxwlvybqyauiyoxhenhptiyjrjr ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602311.9841182-4510-271769508758816/AnsiballZ_apt.py'
+Mar  5 09:31:52 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:32:14 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:32:17 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-guxverqeneiagqzaayumxymoqibvblrj ; sudo dpkg --configure -a'
+Mar  5 09:32:17 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:32:17 controlnode1 sudo:     root : TTY=pts/3 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  5 09:32:17 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=0)
+Mar  5 09:32:17 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:32:17 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:32:17 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ydvhmmftyqiycrjdkssywaawbeqhkilw ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602337.7687309-4537-35385636322526/AnsiballZ_setup.py'
+Mar  5 09:32:17 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:32:18 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:33:18 controlnode1 sshd[4740]: Received disconnect from 192.168.56.101 port 59334:11: disconnected by user
+Mar  5 09:33:18 controlnode1 sshd[4740]: Disconnected from user jhoana 192.168.56.101 port 59334
+Mar  5 09:33:18 controlnode1 sshd[4705]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:33:18 controlnode1 systemd-logind[636]: Session 10 logged out. Waiting for processes to exit.
+Mar  5 09:33:18 controlnode1 systemd-logind[636]: Removed session 10.
+Mar  5 09:33:29 controlnode1 sshd[5349]: Accepted publickey for jhoana from 192.168.56.101 port 46880 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:33:29 controlnode1 sshd[5349]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:33:29 controlnode1 systemd-logind[636]: New session 11 of user jhoana.
+Mar  5 09:33:30 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-swalbvzqtsekbydqfudiafhwsbkrfzee ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602409.6499987-4569-129706562644807/AnsiballZ_setup.py'
+Mar  5 09:33:30 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:33:30 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:33:31 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-pkzvntaxfgqtfpyzniofmmkxiybtenem ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602411.0578492-4596-46275299262287/AnsiballZ_apt.py'
+Mar  5 09:33:31 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:33:38 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:33:38 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-pslnqtdtjylowzqaposirhotltkfsfod ; sudo dpkg --configure -a'
+Mar  5 09:33:38 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:33:38 controlnode1 sudo:     root : TTY=pts/3 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  5 09:33:38 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=0)
+Mar  5 09:33:38 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:33:38 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:34:35 controlnode1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 09:34:35 controlnode1 pkexec[5912]: jhoana: Executing command [USER=root] [TTY=unknown] [CWD=/home/jhoana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  5 09:34:38 controlnode1 sshd[5384]: Received disconnect from 192.168.56.101 port 46880:11: disconnected by user
+Mar  5 09:34:38 controlnode1 sshd[5384]: Disconnected from user jhoana 192.168.56.101 port 46880
+Mar  5 09:34:38 controlnode1 sshd[5349]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:34:38 controlnode1 systemd-logind[636]: Session 11 logged out. Waiting for processes to exit.
+Mar  5 09:34:38 controlnode1 systemd-logind[636]: Removed session 11.
+Mar  5 09:37:06 controlnode1 sshd[5931]: Accepted publickey for jhoana from 192.168.56.101 port 34220 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:37:06 controlnode1 sshd[5931]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:37:06 controlnode1 systemd-logind[636]: New session 12 of user jhoana.
+Mar  5 09:37:07 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-wfcliwdeybeltmbefjkczdhkqgoborvj ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602626.5541406-4682-259578515509930/AnsiballZ_setup.py'
+Mar  5 09:37:07 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:37:07 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:37:08 controlnode1 sudo:   jhoana : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-falerjkgywudegkmufgqhkuvoxivwaqi ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602628.1389408-4708-25440698191060/AnsiballZ_apt.py'
+Mar  5 09:37:08 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:37:29 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:37:36 controlnode1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 09:37:36 controlnode1 pkexec[6490]: jhoana: Executing command [USER=root] [TTY=unknown] [CWD=/home/jhoana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  5 09:38:29 controlnode1 sshd[5966]: Received disconnect from 192.168.56.101 port 34220:11: disconnected by user
+Mar  5 09:38:29 controlnode1 sshd[5966]: Disconnected from user jhoana 192.168.56.101 port 34220
+Mar  5 09:38:29 controlnode1 sshd[5931]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:38:29 controlnode1 systemd-logind[636]: Session 12 logged out. Waiting for processes to exit.
+Mar  5 09:38:29 controlnode1 systemd-logind[636]: Removed session 12.
+Mar  5 09:39:45 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:42:24 controlnode1 sshd[6773]: Accepted publickey for jhoana from 192.168.56.101 port 60126 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:42:24 controlnode1 sshd[6773]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:42:24 controlnode1 systemd-logind[636]: New session 13 of user jhoana.
+Mar  5 09:42:25 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-lfhbwlbugyntfhfenfjrvrdoccjyayxc ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602944.658939-5420-29366328591462/AnsiballZ_setup.py'
+Mar  5 09:42:25 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:42:26 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:42:26 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-iveulfdjvwbkqaqcmczrxnnetsgzdaym ; sudo dpkg --configure -a'
+Mar  5 09:42:26 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:42:26 controlnode1 sudo:     root : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  5 09:42:26 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=0)
+Mar  5 09:42:26 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:42:26 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:42:27 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-crlhbviawdssenrgscqijfqamaygdoor ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709602946.66407-5460-240679116962005/AnsiballZ_apt.py'
+Mar  5 09:42:27 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:45:56 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:47:20 controlnode1 sshd[6808]: Received disconnect from 192.168.56.101 port 60126:11: disconnected by user
+Mar  5 09:47:20 controlnode1 sshd[6808]: Disconnected from user jhoana 192.168.56.101 port 60126
+Mar  5 09:47:20 controlnode1 sshd[6773]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:47:20 controlnode1 systemd-logind[636]: Session 13 logged out. Waiting for processes to exit.
+Mar  5 09:47:20 controlnode1 systemd-logind[636]: Removed session 13.
+Mar  5 09:47:23 controlnode1 sshd[7044]: Accepted publickey for jhoana from 192.168.56.101 port 40734 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:47:23 controlnode1 sshd[7044]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:47:23 controlnode1 systemd-logind[636]: New session 14 of user jhoana.
+Mar  5 09:47:24 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-oyoqjsikegdfggymcsaxvlxquhtwkrxm ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603244.0399394-5660-243797282761393/AnsiballZ_setup.py'
+Mar  5 09:47:25 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:47:26 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:47:30 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-rxpcramovsaamlteyoupzletgzoaxdnb ; sudo dpkg --configure -a'
+Mar  5 09:47:30 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:47:30 controlnode1 sudo:     root : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  5 09:47:30 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=0)
+Mar  5 09:47:30 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:47:30 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:47:31 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-wsrwyedpcthzwxuotppcvttrjustejet ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603251.1615133-5688-26619250713052/AnsiballZ_apt.py'
+Mar  5 09:47:31 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:47:34 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:48:34 controlnode1 sshd[7079]: Received disconnect from 192.168.56.101 port 40734:11: disconnected by user
+Mar  5 09:48:34 controlnode1 sshd[7079]: Disconnected from user jhoana 192.168.56.101 port 40734
+Mar  5 09:48:34 controlnode1 sshd[7044]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:48:34 controlnode1 systemd-logind[636]: Session 14 logged out. Waiting for processes to exit.
+Mar  5 09:48:34 controlnode1 systemd-logind[636]: Removed session 14.
+Mar  5 09:52:20 controlnode1 sshd[7494]: Accepted publickey for jhoana from 192.168.56.101 port 52872 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:52:20 controlnode1 sshd[7494]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:52:20 controlnode1 systemd-logind[636]: New session 15 of user jhoana.
+Mar  5 09:52:20 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ugbrspqygxfgemehsjpcbcuxjgapjgvo ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603540.5960383-6461-12878520227222/AnsiballZ_setup.py'
+Mar  5 09:52:20 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:52:21 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:52:23 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ckyvpqynagfozwhgtmqjwsfahbdiaegj ; sudo dpkg --configure -a'
+Mar  5 09:52:23 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:52:23 controlnode1 sudo:     root : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  5 09:52:23 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=0)
+Mar  5 09:52:23 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:52:23 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:52:23 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-zkwwuuufkwijeftxpdxtjroxfnbfptat ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603543.3492587-6489-79093801150143/AnsiballZ_apt.py'
+Mar  5 09:52:23 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:52:24 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:52:27 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-vwzknfmvqvjnhuoluqrpdkvcgkvlkgot ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603547.1797612-6509-99404226793165/AnsiballZ_setup.py'
+Mar  5 09:52:27 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:52:28 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:53:28 controlnode1 sshd[7529]: Received disconnect from 192.168.56.101 port 52872:11: disconnected by user
+Mar  5 09:53:28 controlnode1 sshd[7529]: Disconnected from user jhoana 192.168.56.101 port 52872
+Mar  5 09:53:28 controlnode1 sshd[7494]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:53:28 controlnode1 systemd-logind[636]: Session 15 logged out. Waiting for processes to exit.
+Mar  5 09:53:28 controlnode1 systemd-logind[636]: Removed session 15.
+Mar  5 09:53:38 controlnode1 sshd[7815]: Accepted publickey for jhoana from 192.168.56.101 port 57578 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:53:38 controlnode1 sshd[7815]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:53:38 controlnode1 systemd-logind[636]: New session 16 of user jhoana.
+Mar  5 09:54:07 controlnode1 sudo:   jhoana : TTY=pts/0 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Mar  5 09:54:07 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Mar  5 09:54:11 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:54:39 controlnode1 sshd[7850]: Received disconnect from 192.168.56.101 port 57578:11: disconnected by user
+Mar  5 09:54:39 controlnode1 sshd[7850]: Disconnected from user jhoana 192.168.56.101 port 57578
+Mar  5 09:54:39 controlnode1 sshd[7815]: pam_unix(sshd:session): session closed for user jhoana
+Mar  5 09:54:39 controlnode1 systemd-logind[636]: Session 16 logged out. Waiting for processes to exit.
+Mar  5 09:54:39 controlnode1 systemd-logind[636]: Removed session 16.
+Mar  5 09:55:20 controlnode1 sshd[7876]: Accepted publickey for jhoana from 192.168.56.101 port 56774 ssh2: RSA SHA256:zmQi32G3QP88CID7+x64rS3LS4A+PMijTbhu4Upune4
+Mar  5 09:55:20 controlnode1 sshd[7876]: pam_unix(sshd:session): session opened for user jhoana(uid=1000) by (uid=0)
+Mar  5 09:55:20 controlnode1 systemd-logind[636]: New session 17 of user jhoana.
+Mar  5 09:55:20 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hxyynsharrzysywdqujbhjftggmywnps ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603720.6557033-6614-250899814460128/AnsiballZ_setup.py'
+Mar  5 09:55:20 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:55:21 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:55:22 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-nqkzqcrlqzjybzjggrhydxytijzxsiph ; sudo dpkg --configure -a'
+Mar  5 09:55:22 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:55:22 controlnode1 sudo:     root : TTY=pts/2 ; PWD=/home/jhoana ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  5 09:55:22 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=0)
+Mar  5 09:55:22 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:55:22 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:55:22 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-xkvsgekzujlahouimuqwknmizscdufjh ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603722.2968326-6642-281472387706868/AnsiballZ_apt.py'
+Mar  5 09:55:22 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:55:23 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:55:24 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-baitqioplefzzvsfcubkjambbebtykxt ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603724.139053-6662-153112877522945/AnsiballZ_setup.py'
+Mar  5 09:55:24 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:55:25 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:55:25 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-klnjqtmvltngdwrhtkdnzutelekjnxey ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603725.191812-6680-210384312937478/AnsiballZ_slurp.py'
+Mar  5 09:55:25 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)
+Mar  5 09:55:25 controlnode1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 09:55:25 controlnode1 sudo:   jhoana : TTY=pts/1 ; PWD=/home/jhoana ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-tujolnpgtqixiszutoslqfebzlfxlarf ; /usr/bin/python3 /home/jhoana/.ansible/tmp/ansible-tmp-1709603725.6191325-6680-159152841384617/AnsiballZ_slurp.py'
+Mar  5 09:55:25 controlnode1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jhoana(uid=1000)

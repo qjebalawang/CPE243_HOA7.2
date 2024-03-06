@@ -1,0 +1,1666 @@
+Mar  5 08:36:42 controlnode1 systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 626 (rsyslogd) on client request.
+Mar  5 08:36:42 controlnode1 systemd[1]: logrotate.service: Deactivated successfully.
+Mar  5 08:36:42 controlnode1 systemd[1]: Finished Rotate log files.
+Mar  5 08:36:42 controlnode1 systemd[888]: Queued start job for default target Main User Target.
+Mar  5 08:36:42 controlnode1 kernel: [   14.136425] systemd-journald[174]: File /var/log/journal/2121bce7e76f4713bd1daa84fdffabd8/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+Mar  5 08:36:42 controlnode1 snapd[634]: overlord.go:271: Acquiring state lock file
+Mar  5 08:36:42 controlnode1 snapd[634]: overlord.go:276: Acquired state lock file
+Mar  5 08:36:42 controlnode1 systemd[888]: Created slice User Application Slice.
+Mar  5 08:36:42 controlnode1 systemd[888]: Created slice User Background Tasks Slice.
+Mar  5 08:36:42 controlnode1 systemd[888]: Created slice User Core Session Slice.
+Mar  5 08:36:42 controlnode1 systemd[888]: Started Pending report trigger for Ubuntu Report.
+Mar  5 08:36:42 controlnode1 systemd[888]: Reached target Paths.
+Mar  5 08:36:42 controlnode1 systemd[888]: Reached target Timers.
+Mar  5 08:36:42 controlnode1 systemd[888]: Starting D-Bus User Message Bus Socket...
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on GnuPG network certificate management daemon.
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on PipeWire Multimedia System Socket.
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on debconf communication socket.
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on Sound System.
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on REST API socket for snapd user session agent.
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on Speech Dispatcher Socket.
+Mar  5 08:36:42 controlnode1 systemd[888]: Listening on D-Bus User Message Bus Socket.
+Mar  5 08:36:42 controlnode1 systemd[888]: Reached target Sockets.
+Mar  5 08:36:42 controlnode1 systemd[888]: Reached target Basic System.
+Mar  5 08:36:42 controlnode1 systemd[1]: Started User Manager for UID 1000.
+Mar  5 08:36:42 controlnode1 systemd[1]: Started Session 1 of User jhoana.
+Mar  5 08:36:42 controlnode1 systemd[888]: Started PipeWire Multimedia Service.
+Mar  5 08:36:42 controlnode1 systemd[888]: Started PipeWire Media Session Manager.
+Mar  5 08:36:42 controlnode1 systemd[888]: Starting Sound Service...
+Mar  5 08:36:42 controlnode1 systemd[888]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mar  5 08:36:42 controlnode1 systemd[888]: Starting Tracker metadata extractor...
+Mar  5 08:36:42 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.36' (uid=1000 pid=964 comm="/usr/bin/pipewire-media-session " label="unconfined")
+Mar  5 08:36:42 controlnode1 systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Mar  5 08:36:42 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Mar  5 08:36:42 controlnode1 systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully called chroot.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully dropped privileges.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully limited resources.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Running.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 0 threads of 0 processes of 0 users.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Watchdog thread running.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Canary thread running.
+Mar  5 08:36:42 controlnode1 systemd[888]: Started D-Bus User Message Bus.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully made thread 963 of process 963 owned by '1000' high priority at nice level -11.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 1 threads of 1 processes of 1 users.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully made thread 965 of process 965 owned by '1000' high priority at nice level -11.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 2 threads of 2 processes of 1 users.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: message repeated 2 times: [ Supervising 2 threads of 2 processes of 1 users.]
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully made thread 994 of process 964 owned by '1000' RT at priority 20.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 3 threads of 3 processes of 1 users.
+Mar  5 08:36:42 controlnode1 snapd[634]: daemon.go:247: started snapd/2.61.1 (series 16; classic) ubuntu/22.04 (amd64) linux/6.2.0-37-generic.
+Mar  5 08:36:42 controlnode1 kernel: [   14.431556] loop18: detected capacity change from 0 to 8
+Mar  5 08:36:42 controlnode1 systemd[1]: tmp-syscheck\x2dmountpoint\x2d1516183811.mount: Deactivated successfully.
+Mar  5 08:36:42 controlnode1 snapd[634]: daemon.go:340: adjusting startup timeout by 1m20s (pessimistic estimate of 30s plus 5s per snap)
+Mar  5 08:36:42 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] AppArmor D-Bus mediation is enabled
+Mar  5 08:36:42 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating systemd to hand-off: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=1000 pid=976 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Mar  5 08:36:42 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.systemd1'
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 3 threads of 3 processes of 1 users.
+Mar  5 08:36:42 controlnode1 systemd[888]: Starting Virtual filesystem service...
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully made thread 1009 of process 963 owned by '1000' RT at priority 20.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 4 threads of 3 processes of 1 users.
+Mar  5 08:36:42 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gtk.vfs.Daemon'
+Mar  5 08:36:42 controlnode1 systemd[888]: Started Virtual filesystem service.
+Mar  5 08:36:42 controlnode1 snapd[634]: backends.go:58: AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor_parser)
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: Disabling timer-based scheduling because running inside a VM.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 4 threads of 3 processes of 1 users.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully made thread 1039 of process 965 owned by '1000' RT at priority 5.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 5 threads of 3 processes of 1 users.
+Mar  5 08:36:42 controlnode1 pulseaudio[965]: Disabling timer-based scheduling because running inside a VM.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 5 threads of 3 processes of 1 users.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Successfully made thread 1041 of process 965 owned by '1000' RT at priority 5.
+Mar  5 08:36:42 controlnode1 rtkit-daemon[984]: Supervising 6 threads of 3 processes of 1 users.
+Mar  5 08:36:42 controlnode1 ModemManager[684]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Mar  5 08:36:42 controlnode1 ModemManager[684]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:08.0': not supported by any plugin
+Mar  5 08:36:42 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.44' (uid=1000 pid=965 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Mar  5 08:36:42 controlnode1 systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Mar  5 08:36:43 controlnode1 systemd[888]: Started Sound Service.
+Mar  5 08:36:43 controlnode1 systemd[1]: Started Snap Daemon.
+Mar  5 08:36:43 controlnode1 systemd[1]: Starting Wait until snapd is fully seeded...
+Mar  5 08:36:43 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.45' (uid=0 pid=634 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar  5 08:36:43 controlnode1 systemd[1]: Starting Time & Date Service...
+Mar  5 08:36:43 controlnode1 NetworkManager[610]: <info>  [1709599003.5962] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 08:36:43 controlnode1 systemd[888]: Created slice Slice /app/gnome-session-manager.
+Mar  5 08:36:43 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.4' (uid=1000 pid=976 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Mar  5 08:36:43 controlnode1 systemd[888]: Started Path trigger for Apport crash notifications.
+Mar  5 08:36:43 controlnode1 systemd[888]: Started Path trigger for new release of Ubuntu notifications.
+Mar  5 08:36:43 controlnode1 systemd[888]: Reached target GNOME Wayland Session.
+Mar  5 08:36:43 controlnode1 systemd[888]: Reached target GNOME Shell.
+Mar  5 08:36:43 controlnode1 systemd[888]: Condition check resulted in GNOME Initial Setup Copy Worker being skipped.
+Mar  5 08:36:43 controlnode1 systemd[888]: Starting Start gnome-keyring as SSH agent...
+Mar  5 08:36:43 controlnode1 systemd[888]: Starting Start gnome-keyring for the Secrets Service, and PKCS #11...
+Mar  5 08:36:43 controlnode1 systemd[888]: Starting Monitor Session leader for GNOME Session...
+Mar  5 08:36:43 controlnode1 systemd[888]: Starting Session Migration...
+Mar  5 08:36:43 controlnode1 systemd[888]: Starting Rewrite dynamic launcher portal entries...
+Mar  5 08:36:43 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar  5 08:36:43 controlnode1 systemd[1]: Started Time & Date Service.
+Mar  5 08:36:43 controlnode1 sh[1112]: dbus-update-activation-environment: setting SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar  5 08:36:43 controlnode1 sh[1112]: dbus-update-activation-environment: setting SSH_AGENT_LAUNCHER=gnome-keyring
+Mar  5 08:36:43 controlnode1 sh[1098]: /bin/sh: 1: initctl: not found
+Mar  5 08:36:43 controlnode1 systemd[888]: Finished Start gnome-keyring as SSH agent.
+Mar  5 08:36:43 controlnode1 gnome-keyring-daemon[1109]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar  5 08:36:43 controlnode1 systemd[888]: Started OpenSSH Agent.
+Mar  5 08:36:43 controlnode1 systemd[888]: Started Monitor Session leader for GNOME Session.
+Mar  5 08:36:43 controlnode1 systemd[888]: Finished Start gnome-keyring for the Secrets Service, and PKCS #11.
+Mar  5 08:36:43 controlnode1 systemd[888]: Finished Rewrite dynamic launcher portal entries.
+Mar  5 08:36:44 controlnode1 systemd[888]: Finished Session Migration.
+Mar  5 08:36:44 controlnode1 systemd[888]: Reached target Session services which should run early before the graphical session is brought up.
+Mar  5 08:36:44 controlnode1 systemd[888]: Reached target Tasks to be run before GNOME Session starts.
+Mar  5 08:36:44 controlnode1 systemd[888]: Starting GNOME Session Manager (session: ubuntu)...
+Mar  5 08:36:44 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.18' (uid=1000 pid=966 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+Mar  5 08:36:44 controlnode1 systemd[888]: Starting flatpak document portal service...
+Mar  5 08:36:44 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.19' (uid=1000 pid=1132 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+Mar  5 08:36:44 controlnode1 systemd[888]: Starting sandboxed app permission store...
+Mar  5 08:36:44 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Mar  5 08:36:44 controlnode1 systemd[888]: Started sandboxed app permission store.
+Mar  5 08:36:44 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.portal.Documents'
+Mar  5 08:36:44 controlnode1 systemd[888]: Started flatpak document portal service.
+Mar  5 08:36:44 controlnode1 systemd[1]: Finished Wait until snapd is fully seeded.
+Mar  5 08:36:44 controlnode1 systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Mar  5 08:36:44 controlnode1 kernel: [   16.073683] kauditd_printk_skb: 39 callbacks suppressed
+Mar  5 08:36:44 controlnode1 kernel: [   16.073685] audit: type=1400 audit(1709599004.228:51): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/20671/usr/lib/snapd/snap-confine" pid=966 comm="snap-confine" capability=12  capname="net_admin"
+Mar  5 08:36:44 controlnode1 kernel: [   16.077296] audit: type=1400 audit(1709599004.232:52): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/20671/usr/lib/snapd/snap-confine" pid=966 comm="snap-confine" capability=38  capname="perfmon"
+Mar  5 08:36:44 controlnode1 systemd[888]: Started Application launched by gnome-session-binary.
+Mar  5 08:36:44 controlnode1 systemd[888]: message repeated 2 times: [ Started Application launched by gnome-session-binary.]
+Mar  5 08:36:44 controlnode1 gnome-keyring-ssh.desktop[1157]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar  5 08:36:44 controlnode1 gnome-keyring-secrets.desktop[1159]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar  5 08:36:44 controlnode1 gnome-keyring-pkcs11.desktop[1160]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar  5 08:36:44 controlnode1 systemd[888]: Started GNOME Session Manager (session: ubuntu).
+Mar  5 08:36:44 controlnode1 systemd[888]: Reached target GNOME Session Manager is ready.
+Mar  5 08:36:44 controlnode1 systemd[888]: Starting GNOME Shell on Wayland...
+Mar  5 08:36:44 controlnode1 systemd[888]: Starting GNOME Shell on X11...
+Mar  5 08:36:44 controlnode1 systemd[1]: tmp-snap.rootfs_9nwF4t.mount: Deactivated successfully.
+Mar  5 08:36:44 controlnode1 systemd[888]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Mar  5 08:36:44 controlnode1 systemd[888]: Condition check resulted in GNOME Shell on X11 being skipped.
+Mar  5 08:36:44 controlnode1 systemd[888]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 1.
+Mar  5 08:36:44 controlnode1 systemd[888]: Started Application launched by gnome-session-binary.
+Mar  5 08:36:44 controlnode1 systemd[888]: app-gnome-xdg\x2duser\x2ddirs-1163.scope: Couldn't move process 1163 to requested cgroup '/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-xdg\x2duser\x2ddirs-1163.scope': No such process
+Mar  5 08:36:44 controlnode1 systemd[888]: app-gnome-xdg\x2duser\x2ddirs-1163.scope: Failed to add PIDs to scope's control group: No such process
+Mar  5 08:36:44 controlnode1 systemd[888]: app-gnome-xdg\x2duser\x2ddirs-1163.scope: Failed with result 'resources'.
+Mar  5 08:36:44 controlnode1 systemd[888]: Failed to start Application launched by gnome-session-binary.
+Mar  5 08:36:44 controlnode1 systemd[888]: Stopped GNOME Shell on X11.
+Mar  5 08:36:44 controlnode1 systemd[888]: Starting GNOME Shell on X11...
+Mar  5 08:36:44 controlnode1 systemd[888]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Mar  5 08:36:44 controlnode1 systemd[888]: Condition check resulted in GNOME Shell on X11 being skipped.
+Mar  5 08:36:44 controlnode1 systemd[888]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 2.
+Mar  5 08:36:44 controlnode1 systemd[888]: Stopped GNOME Shell on X11.
+Mar  5 08:36:44 controlnode1 systemd[888]: Starting GNOME Shell on X11...
+Mar  5 08:36:44 controlnode1 systemd[888]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Mar  5 08:36:44 controlnode1 systemd[888]: Condition check resulted in GNOME Shell on X11 being skipped.
+Mar  5 08:36:44 controlnode1 systemd[888]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 3.
+Mar  5 08:36:44 controlnode1 systemd[888]: Stopped GNOME Shell on X11.
+Mar  5 08:36:44 controlnode1 systemd[888]: org.gnome.Shell@x11.service: Start request repeated too quickly.
+Mar  5 08:36:44 controlnode1 systemd[888]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Mar  5 08:36:44 controlnode1 systemd[888]: Started GNOME Shell on X11.
+Mar  5 08:36:44 controlnode1 systemd[1]: dmesg.service: Deactivated successfully.
+Mar  5 08:36:44 controlnode1 gnome-shell[1165]: Running GNOME Shell (using mutter 42.9) as a Wayland display server
+Mar  5 08:36:44 controlnode1 gnome-shell[1165]: Added device '/dev/dri/card0' (vmwgfx) using non-atomic mode setting.
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: VMware: No 3D enabled (0, Success).
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: VMware: No 3D enabled (0, Success).
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: VMware: No 3D enabled (0, Success).
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: libEGL warning: egl: failed to create dri2 screen
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: VMware: No 3D enabled (0, Success).
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: libEGL warning: egl: failed to create dri2 screen
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: Created gbm renderer for '/dev/dri/card0'
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: Boot VGA GPU /dev/dri/card0 selected as primary
+Mar  5 08:36:46 controlnode1 snapd-desktop-i[1235]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+Mar  5 08:36:46 controlnode1 snapd-desktop-i[1235]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+Mar  5 08:36:46 controlnode1 snapd-desktop-i[1235]: Checking session /org/freedesktop/login1/session/_31...
+Mar  5 08:36:46 controlnode1 snapd-desktop-i[1235]: Is a desktop session! Forcing a reload.
+Mar  5 08:36:46 controlnode1 snapd-desktop-i[1235]: Loop exited. Forcing reload.
+Mar  5 08:36:46 controlnode1 systemd[888]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Consumed 1.007s CPU time.
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: Disabling DMA buffer screen sharing (not hardware accelerated)
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: Disabling DMA buffer screen sharing (implicit modifiers not supported)
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: Using public X11 display :0, (using :1 for managed services)
+Mar  5 08:36:46 controlnode1 gnome-shell[1165]: Using Wayland display name 'wayland-0'
+Mar  5 08:36:47 controlnode1 gnome-shell[1165]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Mar  5 08:36:47 controlnode1 gnome-shell[1165]: Will monitor session 1
+Mar  5 08:36:47 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:47 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.24' (uid=1000 pid=1245 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Mar  5 08:36:47 controlnode1 systemd[888]: Starting Evolution source registry...
+Mar  5 08:36:47 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.48' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:47 controlnode1 systemd[1]: Starting Daemon for power management...
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating service name='org.gnome.OnlineAccounts' requested by ':1.25' (uid=1000 pid=1251 comm="/usr/libexec/evolution-source-registry " label="unconfined")
+Mar  5 08:36:48 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.UPower'
+Mar  5 08:36:48 controlnode1 systemd[1]: Started Daemon for power management.
+Mar  5 08:36:48 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.48' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:48 controlnode1 systemd[1]: Starting Location Lookup Service...
+Mar  5 08:36:48 controlnode1 systemd[888]: Starting User preferences database...
+Mar  5 08:36:48 controlnode1 gnome-shell[1165]: Telepathy is not available, chat integration will be disabled.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'ca.desrt.dconf'
+Mar  5 08:36:48 controlnode1 systemd[888]: Started User preferences database.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:48 controlnode1 systemd[888]: Starting Virtual filesystem service - disk device monitor...
+Mar  5 08:36:48 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Mar  5 08:36:48 controlnode1 systemd[1]: Started Location Lookup Service.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Mar  5 08:36:48 controlnode1 systemd[888]: Started Evolution source registry.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Mar  5 08:36:48 controlnode1 systemd[888]: Started Virtual filesystem service - disk device monitor.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.24' (uid=1000 pid=1245 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Mar  5 08:36:48 controlnode1 systemd[888]: Starting Evolution calendar service...
+Mar  5 08:36:48 controlnode1 systemd[888]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Mar  5 08:36:48 controlnode1 goa-daemon[1263]: goa-daemon version 3.44.0 starting
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating service name='org.gnome.Identity' requested by ':1.30' (uid=1000 pid=1263 comm="/usr/libexec/goa-daemon " label="unconfined")
+Mar  5 08:36:48 controlnode1 systemd[888]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 1.
+Mar  5 08:36:48 controlnode1 systemd[888]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mar  5 08:36:48 controlnode1 systemd[888]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Consumed 1.007s CPU time.
+Mar  5 08:36:48 controlnode1 systemd[888]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.OnlineAccounts'
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Mar  5 08:36:48 controlnode1 systemd[888]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:48 controlnode1 systemd[888]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Mar  5 08:36:48 controlnode1 systemd[888]: Started Virtual filesystem service - Apple File Conduit monitor.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+Mar  5 08:36:48 controlnode1 systemd[888]: Started Evolution calendar service.
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:48 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.29' (uid=1000 pid=1279 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+Mar  5 08:36:48 controlnode1 systemd[888]: Starting Virtual filesystem service - digital camera monitor...
+Mar  5 08:36:49 controlnode1 systemd[888]: Starting Evolution address book service...
+Mar  5 08:36:49 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.Identity'
+Mar  5 08:36:49 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Mar  5 08:36:49 controlnode1 systemd[888]: Started Virtual filesystem service - digital camera monitor.
+Mar  5 08:36:49 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:25 controlnode1 chronyd[735]: Selected source 185.125.190.58 (ntp.ubuntu.com)
+Mar  5 08:36:26 controlnode1 systemd-resolved[512]: Clock change detected. Flushing caches.
+Mar  5 08:36:26 controlnode1 chronyd[735]: System clock wrong by -23.281338 seconds
+Mar  5 08:36:26 controlnode1 systemd[888]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Mar  5 08:36:26 controlnode1 chronyd[735]: System clock was stepped by -23.281338 seconds
+Mar  5 08:36:26 controlnode1 systemd[888]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Mar  5 08:36:26 controlnode1 chronyd[735]: System clock TAI offset set to 37 seconds
+Mar  5 08:36:26 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Mar  5 08:36:26 controlnode1 snapd-desktop-i[1383]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+Mar  5 08:36:26 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.36' (uid=1000 pid=1383 comm="/snap/snapd-desktop-integration/83/usr/bin/snapd-d" label="snap.snapd-desktop-integration.snapd-desktop-integration (enforce)")
+Mar  5 08:36:26 controlnode1 systemd[888]: Starting Portal service...
+Mar  5 08:36:27 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 08:36:27 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.48' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:27 controlnode1 systemd[1]: Starting PackageKit Daemon...
+Mar  5 08:36:28 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+Mar  5 08:36:28 controlnode1 systemd[888]: Started Evolution address book service.
+Mar  5 08:36:28 controlnode1 chronyd[735]: Selected source 185.125.190.58 (ntp.ubuntu.com)
+Mar  5 08:36:28 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.37' (uid=1000 pid=1387 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Mar  5 08:36:28 controlnode1 PackageKit: daemon start
+Mar  5 08:36:28 controlnode1 systemd[888]: Starting Portal service (GNOME implementation)...
+Mar  5 08:36:30 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 08:36:30 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Mar  5 08:36:30 controlnode1 systemd[1]: Started PackageKit Daemon.
+Mar  5 08:36:30 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating service name='org.freedesktop.FileManager1' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:30 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating service name='org.gnome.Shell.Notifications' requested by ':1.22' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:30 controlnode1 at-spi-dbus-bus.desktop[1174]: dbus-daemon[1174]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1165 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  5 08:36:31 controlnode1 systemd[888]: Started GNOME Shell on Wayland.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME Session is initialized.
+Mar  5 08:36:31 controlnode1 systemd[888]: GNOME session X11 services is inactive.
+Mar  5 08:36:31 controlnode1 systemd[888]: Dependency failed for GNOME XSettings service.
+Mar  5 08:36:31 controlnode1 systemd[888]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Mar  5 08:36:31 controlnode1 systemd[888]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME Session (session: ubuntu).
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME XSettings target.
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting Signal initialization done to GNOME Session Manager...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting IBus Daemon for GNOME...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME accessibility service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME color management service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME date & time service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME maintenance of expirable data service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME keyboard configuration service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME keyboard shortcuts service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME power management service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME printer notifications service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME RFKill support service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME FreeDesktop screensaver service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME file sharing service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME smartcard service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME sound sample caching service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Starting GNOME Wacom tablet support service...
+Mar  5 08:36:31 controlnode1 systemd[888]: Finished Signal initialization done to GNOME Session Manager.
+Mar  5 08:36:31 controlnode1 systemd[888]: Started Application launched by gnome-session-binary.
+Mar  5 08:36:31 controlnode1 at-spi-dbus-bus.desktop[1174]: dbus-daemon[1174]: Successfully activated service 'org.a11y.atspi.Registry'
+Mar  5 08:36:31 controlnode1 at-spi-dbus-bus.desktop[1424]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Mar  5 08:36:31 controlnode1 NetworkManager[610]: <info>  [1709598991.4050] agent-manager: agent[1aeb6b95e75efd7a,:1.48/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Mar  5 08:36:31 controlnode1 kernel: [   26.823917] rfkill: input handler disabled
+Mar  5 08:36:31 controlnode1 systemd[888]: Started GNOME RFKill support service.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME RFKill support target.
+Mar  5 08:36:31 controlnode1 systemd[888]: Started GNOME FreeDesktop screensaver service.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME FreeDesktop screensaver target.
+Mar  5 08:36:31 controlnode1 systemd[888]: Started GNOME smartcard service.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME smartcard target.
+Mar  5 08:36:31 controlnode1 systemd[888]: Started GNOME accessibility service.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME accessibility target.
+Mar  5 08:36:31 controlnode1 spice-vdagent[1435]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+Mar  5 08:36:31 controlnode1 systemd[888]: Started GNOME file sharing service.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME file sharing target.
+Mar  5 08:36:31 controlnode1 systemd[888]: Started GNOME maintenance of expirable data service.
+Mar  5 08:36:31 controlnode1 systemd[888]: Started GNOME sound sample caching service.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME maintenance of expirable data target.
+Mar  5 08:36:31 controlnode1 systemd[888]: Reached target GNOME sound sample caching target.
+Mar  5 08:36:32 controlnode1 gnome-session-binary[1119]: Entering running state
+Mar  5 08:36:32 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating service name='org.freedesktop.portal.IBus' requested by ':1.58' (uid=1000 pid=1448 comm="/usr/bin/ibus-daemon --panel disable " label="unconfined")
+Mar  5 08:36:32 controlnode1 systemd[888]: Started IBus Daemon for GNOME.
+Mar  5 08:36:32 controlnode1 systemd[888]: Started GNOME printer notifications service.
+Mar  5 08:36:32 controlnode1 systemd[888]: Reached target GNOME printer notifications target.
+Mar  5 08:36:32 controlnode1 vmware-user.desktop[1547]: vmware-user: could not open /proc/fs/vmblock/dev
+Mar  5 08:36:32 controlnode1 systemd[888]: Started Application launched by gnome-session-binary.
+Mar  5 08:36:32 controlnode1 at-spi2-registr[1424]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+Mar  5 08:36:32 controlnode1 at-spi2-registr[1424]: Unable to register client with session manager
+Mar  5 08:36:32 controlnode1 gnome-shell[1165]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Mar  5 08:36:32 controlnode1 systemd[888]: Started GNOME date & time service.
+Mar  5 08:36:32 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.portal.IBus'
+Mar  5 08:36:32 controlnode1 systemd[888]: Started Application launched by gnome-session-binary.
+Mar  5 08:36:32 controlnode1 systemd[888]: message repeated 4 times: [ Started Application launched by gnome-session-binary.]
+Mar  5 08:36:32 controlnode1 systemd[888]: Reached target GNOME date & time target.
+Mar  5 08:36:32 controlnode1 gnome-session[1119]: gnome-session-binary[1119]: GnomeDesktop-WARNING: Could not create transient scope for PID 1524: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1524 does not exist.
+Mar  5 08:36:32 controlnode1 gnome-session-binary[1119]: GnomeDesktop-WARNING: Could not create transient scope for PID 1524: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1524 does not exist.
+Mar  5 08:36:32 controlnode1 gnome-session[1119]: gnome-session-binary[1119]: GnomeDesktop-WARNING: Could not create transient scope for PID 1536: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1536 does not exist.
+Mar  5 08:36:32 controlnode1 gnome-session-binary[1119]: GnomeDesktop-WARNING: Could not create transient scope for PID 1536: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1536 does not exist.
+Mar  5 08:36:32 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.Shell.Notifications'
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Mar  5 08:36:33 controlnode1 gnome-shell[1165]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Mar  5 08:36:34 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+Mar  5 08:36:34 controlnode1 systemd[888]: Started Portal service (GNOME implementation).
+Mar  5 08:36:34 controlnode1 rtkit-daemon[984]: Supervising 6 threads of 3 processes of 1 users.
+Mar  5 08:36:34 controlnode1 rtkit-daemon[984]: message repeated 2 times: [ Supervising 6 threads of 3 processes of 1 users.]
+Mar  5 08:36:34 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.37' (uid=1000 pid=1387 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Mar  5 08:36:34 controlnode1 systemd[888]: Starting Portal service (GTK/GNOME implementation)...
+Mar  5 08:36:35 controlnode1 systemd[888]: Started GNOME keyboard configuration service.
+Mar  5 08:36:35 controlnode1 systemd[888]: Reached target GNOME keyboard configuration target.
+Mar  5 08:36:35 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.70' (uid=1000 pid=1432 comm="/usr/libexec/gsd-keyboard " label="unconfined")
+Mar  5 08:36:35 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.71' (uid=1000 pid=1429 comm="/usr/libexec/gsd-color " label="unconfined")
+Mar  5 08:36:35 controlnode1 systemd[888]: Started GNOME color management service.
+Mar  5 08:36:35 controlnode1 systemd[888]: Reached target GNOME color management target.
+Mar  5 08:36:35 controlnode1 systemd[888]: Started GNOME power management service.
+Mar  5 08:36:35 controlnode1 systemd[888]: Reached target GNOME power management target.
+Mar  5 08:36:35 controlnode1 systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Mar  5 08:36:35 controlnode1 systemd[888]: Started GNOME keyboard shortcuts service.
+Mar  5 08:36:35 controlnode1 systemd[888]: Reached target GNOME keyboard shortcuts target.
+Mar  5 08:36:35 controlnode1 systemd[1]: Starting Locale Service...
+Mar  5 08:36:35 controlnode1 colord[1631]: failed to get edid data: EDID length is too small
+Mar  5 08:36:35 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Mar  5 08:36:35 controlnode1 systemd[1]: Started Manage, Install and Generate Color Profiles.
+Mar  5 08:36:35 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.locale1'
+Mar  5 08:36:35 controlnode1 systemd[1]: Started Locale Service.
+Mar  5 08:36:36 controlnode1 systemd[888]: Started GNOME Wacom tablet support service.
+Mar  5 08:36:36 controlnode1 systemd[888]: Reached target GNOME Wacom tablet support target.
+Mar  5 08:36:36 controlnode1 systemd[888]: Reached target GNOME Session.
+Mar  5 08:36:36 controlnode1 systemd[888]: Reached target GNOME Wayland Session (session: ubuntu).
+Mar  5 08:36:36 controlnode1 systemd[888]: Reached target Current graphical user session.
+Mar  5 08:36:36 controlnode1 systemd[888]: Condition check resulted in GNOME Initial Setup being skipped.
+Mar  5 08:36:36 controlnode1 systemd[888]: Starting Tracker file system data miner...
+Mar  5 08:36:37 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating service name='org.gnome.ScreenSaver' requested by ':1.55' (uid=1000 pid=1437 comm="/usr/libexec/gsd-power " label="unconfined")
+Mar  5 08:36:37 controlnode1 gsd-media-keys[1436]: Failed to grab accelerator for keybinding settings:hibernate
+Mar  5 08:36:37 controlnode1 gsd-media-keys[1436]: Failed to grab accelerator for keybinding settings:playback-repeat
+Mar  5 08:36:37 controlnode1 gsd-color[1429]: failed to get edid: unable to get EDID for output
+Mar  5 08:36:37 controlnode1 gsd-color[1429]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Mar  5 08:36:37 controlnode1 gnome-shell[1165]: GNOME Shell started at Tue Mar 05 2024 08:36:27 GMT+0800 (PST)
+Mar  5 08:36:37 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.ScreenSaver'
+Mar  5 08:36:37 controlnode1 gnome-shell[1165]: Registering session with GDM
+Mar  5 08:36:38 controlnode1 gnome-session[1119]: gnome-session-binary[1119]: WARNING: Could not retrieve current screensaver active state: Timeout was reached
+Mar  5 08:36:38 controlnode1 gnome-session-binary[1119]: WARNING: Could not retrieve current screensaver active state: Timeout was reached
+Mar  5 08:36:38 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Mar  5 08:36:38 controlnode1 systemd[888]: Started Portal service (GTK/GNOME implementation).
+Mar  5 08:36:39 controlnode1 systemd[1]: systemd-fsckd.service: Deactivated successfully.
+Mar  5 08:36:39 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.portal.Desktop'
+Mar  5 08:36:39 controlnode1 systemd[888]: Started Portal service.
+Mar  5 08:36:39 controlnode1 systemd[1]: Received SIGRTMIN+21 from PID 237 (plymouthd).
+Mar  5 08:36:39 controlnode1 systemd[1]: Finished Hold until boot process finishes up.
+Mar  5 08:36:39 controlnode1 systemd[1]: Reached target Multi-User System.
+Mar  5 08:36:39 controlnode1 systemd[1]: Reached target Graphical Interface.
+Mar  5 08:36:39 controlnode1 systemd[1]: Starting Set console scheme...
+Mar  5 08:36:39 controlnode1 systemd[1]: Starting Record Runlevel Change in UTMP...
+Mar  5 08:36:39 controlnode1 systemd[1]: Finished Set console scheme.
+Mar  5 08:36:39 controlnode1 systemd[1]: Created slice Slice /system/getty.
+Mar  5 08:36:39 controlnode1 systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Mar  5 08:36:39 controlnode1 systemd[1]: Finished Record Runlevel Change in UTMP.
+Mar  5 08:36:39 controlnode1 systemd[1]: Startup finished in 2.324s (kernel) + 32.779s (userspace) = 35.104s.
+Mar  5 08:36:40 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.FileManager1'
+Mar  5 08:36:41 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating service name='org.gnome.ArchiveManager1' requested by ':1.79' (uid=1000 pid=1672 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+Mar  5 08:36:41 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.ArchiveManager1'
+Mar  5 08:36:41 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.79' (uid=1000 pid=1672 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+Mar  5 08:36:41 controlnode1 systemd[888]: Starting Virtual filesystem metadata service...
+Mar  5 08:36:41 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gtk.vfs.Metadata'
+Mar  5 08:36:41 controlnode1 systemd[888]: Started Virtual filesystem metadata service.
+Mar  5 08:36:42 controlnode1 gnome-shell[1165]: DING: Detected async api for thumbnails
+Mar  5 08:36:43 controlnode1 gnome-shell[1165]: DING: GNOME nautilus 42.6
+Mar  5 08:36:44 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+Mar  5 08:36:44 controlnode1 systemd[888]: Started Tracker file system data miner.
+Mar  5 08:36:44 controlnode1 pulseaudio[965]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Mar  5 08:36:46 controlnode1 systemd[888]: Started Tracker metadata extractor.
+Mar  5 08:36:46 controlnode1 systemd[888]: Reached target Main User Target.
+Mar  5 08:36:46 controlnode1 systemd[888]: Startup finished in 28.270s.
+Mar  5 08:36:47 controlnode1 snapd-desktop-i[1383]: New theme: gtk=Yaru icon=Yaru cursor=Yaru, sound=Yaru
+Mar  5 08:36:47 controlnode1 snapd-desktop-i[1383]: All available theme snaps installed
+Mar  5 08:36:50 controlnode1 nautilus[1412]: Could not delete '.meta.isrunning': No such file or directory
+Mar  5 08:36:51 controlnode1 systemd[1]: systemd-timedated.service: Deactivated successfully.
+Mar  5 08:36:52 controlnode1 systemd[888]: Started Application launched by gnome-shell.
+Mar  5 08:36:53 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.86' (uid=1000 pid=1735 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Mar  5 08:36:53 controlnode1 systemd[888]: Created slice Slice /app/org.gnome.Terminal.
+Mar  5 08:36:53 controlnode1 systemd[888]: Starting GNOME Terminal Server...
+Mar  5 08:36:53 controlnode1 dbus-daemon[993]: [session uid=1000 pid=993] Successfully activated service 'org.gnome.Terminal'
+Mar  5 08:36:53 controlnode1 systemd[888]: Started GNOME Terminal Server.
+Mar  5 08:36:54 controlnode1 systemd[888]: Started VTE child process 1758 launched by gnome-terminal-server process 1740.
+Mar  5 08:36:55 controlnode1 kernel: [   50.380767] e1000: enp0s3 NIC Link is Down
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.2710] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.2824] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.2825] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.2829] dhcp4 (enp0s3): state changed no lease
+Mar  5 08:37:01 controlnode1 kernel: [   56.428545] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 08:37:01 controlnode1 systemd-resolved[512]: enp0s8: Bus client set default route setting: no
+Mar  5 08:37:01 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 08:37:01 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 08:37:01 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3538] device (enp0s3): carrier: link connected
+Mar  5 08:37:01 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3582] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3705] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3826] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3878] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3887] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3916] manager: NetworkManager state is now CONNECTING
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3940] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:37:01 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.3975] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:37:01 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.4094] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.4787] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 08:37:01 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.4867] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.5087] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.5097] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.5109] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.5141] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.5169] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 08:37:01 controlnode1 NetworkManager[610]: <info>  [1709599021.5204] device (enp0s3): Activation: successful, device activated.
+Mar  5 08:37:05 controlnode1 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Mar  5 08:37:06 controlnode1 systemd[1]: systemd-localed.service: Deactivated successfully.
+Mar  5 08:37:07 controlnode1 kernel: [   62.475861] e1000: enp0s3 NIC Link is Down
+Mar  5 08:37:07 controlnode1 kernel: [   62.475875] e1000 0000:00:03.0 enp0s3: Reset adapter
+Mar  5 08:37:09 controlnode1 NetworkManager[610]: <info>  [1709599029.4314] device (enp0s3): carrier: link connected
+Mar  5 08:37:09 controlnode1 NetworkManager[610]: <info>  [1709599029.4315] device (enp0s3): ip:dhcp4: restarting
+Mar  5 08:37:09 controlnode1 kernel: [   64.556219] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 08:37:09 controlnode1 NetworkManager[610]: <info>  [1709599029.4425] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 08:37:09 controlnode1 NetworkManager[610]: <info>  [1709599029.4425] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 08:37:09 controlnode1 NetworkManager[610]: <info>  [1709599029.4425] dhcp4 (enp0s3): state changed no lease
+Mar  5 08:37:09 controlnode1 NetworkManager[610]: <info>  [1709599029.4426] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 08:37:09 controlnode1 NetworkManager[610]: <info>  [1709599029.4551] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 08:37:09 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 08:37:09 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 08:37:16 controlnode1 NetworkManager[610]: <info>  [1709599036.1762] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 08:37:23 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 08:37:23 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 08:37:25 controlnode1 geoclue[1264]: Service not used for 60 seconds. Shutting down..
+Mar  5 08:37:25 controlnode1 systemd[1]: geoclue.service: Deactivated successfully.
+Mar  5 08:37:26 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 08:37:31 controlnode1 systemd[888]: Started Application launched by gnome-session-binary.
+Mar  5 08:37:31 controlnode1 systemd[888]: Started Application launched by gnome-session-binary.
+Mar  5 08:37:34 controlnode1 ubuntu-appindicators@ubuntu.com[1165]: unable to update icon for software-update-available
+Mar  5 08:37:34 controlnode1 ubuntu-appindicators@ubuntu.com[1165]: unable to update icon for livepatch
+Mar  5 08:37:39 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 08:37:39 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 08:37:46 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 08:37:46 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 08:38:32 controlnode1 systemd[888]: Started Application launched by gnome-session-binary.
+Mar  5 08:38:37 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 08:38:38 controlnode1 chronyd[735]: Selected source 185.125.190.58 (ntp.ubuntu.com)
+Mar  5 08:40:36 controlnode1 update-notifier.desktop[2464]: #015Reading package lists... 0%#015#015Reading package lists... 100%#015#015Reading package lists... Done
+Mar  5 08:40:37 controlnode1 update-notifier.desktop[2464]: #015Building dependency tree... 0%#015#015Building dependency tree... 0%#015#015Building dependency tree... 50%#015#015Building dependency tree... 50%#015#015Building dependency tree... Done
+Mar  5 08:40:37 controlnode1 update-notifier.desktop[2464]: #015Reading state information... 0% #015#015Reading state information... 0%#015#015Reading state information... Done
+Mar  5 08:40:44 controlnode1 update-notifier.desktop[2469]: WARNING:root:Error loading .desktop file /usr/share/applications/vim.desktop: constructor returned NULL
+Mar  5 08:41:16 controlnode1 anacron[743]: Job `cron.daily' started
+Mar  5 08:41:16 controlnode1 anacron[2513]: Updated timestamp for job `cron.daily' to 2024-03-05
+Mar  5 08:41:16 controlnode1 systemd[1]: Starting Download data for packages that failed at package install time...
+Mar  5 08:41:17 controlnode1 cracklib: no dictionary update necessary.
+Mar  5 08:41:17 controlnode1 anacron[743]: Job `cron.daily' terminated
+Mar  5 08:41:17 controlnode1 anacron[743]: Normal exit (1 job run)
+Mar  5 08:41:17 controlnode1 systemd[1]: anacron.service: Deactivated successfully.
+Mar  5 08:41:17 controlnode1 systemd[1]: update-notifier-download.service: Deactivated successfully.
+Mar  5 08:41:17 controlnode1 systemd[1]: Finished Download data for packages that failed at package install time.
+Mar  5 08:41:17 controlnode1 NetworkManager[610]: <info>  [1709599277.4579] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 08:41:21 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.45' (uid=0 pid=634 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar  5 08:41:21 controlnode1 systemd[1]: Starting Time & Date Service...
+Mar  5 08:41:21 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar  5 08:41:21 controlnode1 systemd[1]: Started Time & Date Service.
+Mar  5 08:41:25 controlnode1 snapd[634]: storehelpers.go:791: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+Mar  5 08:41:52 controlnode1 systemd[1]: systemd-timedated.service: Deactivated successfully.
+Mar  5 08:42:03 controlnode1 kernel: [  358.897577] e1000: enp0s3 NIC Link is Down
+Mar  5 08:42:07 controlnode1 NetworkManager[610]: <info>  [1709599327.7997] device (enp0s3): carrier: link connected
+Mar  5 08:42:07 controlnode1 kernel: [  362.929643] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 08:42:07 controlnode1 NetworkManager[610]: <info>  [1709599327.8027] device (enp0s3): ip:dhcp4: restarting
+Mar  5 08:42:07 controlnode1 NetworkManager[610]: <info>  [1709599327.8150] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 08:42:07 controlnode1 NetworkManager[610]: <info>  [1709599327.8151] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 08:42:07 controlnode1 NetworkManager[610]: <info>  [1709599327.8151] dhcp4 (enp0s3): state changed no lease
+Mar  5 08:42:07 controlnode1 NetworkManager[610]: <info>  [1709599327.8152] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 08:42:07 controlnode1 NetworkManager[610]: <info>  [1709599327.8277] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 08:42:07 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 08:42:07 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 08:42:07 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 08:42:07 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 08:42:07 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 08:42:07 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 08:42:13 controlnode1 kernel: [  368.977241] e1000: enp0s3 NIC Link is Down
+Mar  5 08:42:15 controlnode1 NetworkManager[610]: <info>  [1709599335.5231] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 08:42:19 controlnode1 NetworkManager[610]: <info>  [1709599339.8503] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 08:42:19 controlnode1 NetworkManager[610]: <info>  [1709599339.8589] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 08:42:19 controlnode1 NetworkManager[610]: <info>  [1709599339.8590] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 08:42:19 controlnode1 NetworkManager[610]: <info>  [1709599339.8592] dhcp4 (enp0s3): state changed no lease
+Mar  5 08:42:19 controlnode1 kernel: [  375.025351] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 08:42:19 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 08:42:19 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 08:42:19 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 08:42:19 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 08:42:19 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 08:42:19 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 08:42:19 controlnode1 NetworkManager[610]: <info>  [1709599339.9330] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 08:42:19 controlnode1 NetworkManager[610]: <info>  [1709599339.9896] device (enp0s3): carrier: link connected
+Mar  5 08:42:19 controlnode1 NetworkManager[610]: <info>  [1709599339.9941] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.0055] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 08:42:20 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.0134] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.0139] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.0163] manager: NetworkManager state is now CONNECTING
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.0189] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:42:20 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.0260] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:42:20 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.0325] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 08:42:20 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.2118] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 08:42:20 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 08:42:20 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 08:42:20 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.2198] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.2266] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.2279] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.2368] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 08:42:20 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.2477] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.2520] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 08:42:20 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 08:42:20 controlnode1 NetworkManager[610]: <info>  [1709599340.2657] device (enp0s3): Activation: successful, device activated.
+Mar  5 08:42:20 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 08:42:25 controlnode1 systemd-resolved[512]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 172.30.0.5.
+Mar  5 08:42:30 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 08:42:34 controlnode1 systemd-resolved[512]: Using degraded feature set TCP instead of UDP for DNS server 172.30.0.5.
+Mar  5 08:42:34 controlnode1 systemd-resolved[512]: Using degraded feature set UDP instead of TCP for DNS server 172.30.0.5.
+Mar  5 08:42:35 controlnode1 systemd-resolved[512]: Using degraded feature set TCP instead of UDP for DNS server 172.30.0.5.
+Mar  5 08:42:35 controlnode1 NetworkManager[610]: <info>  [1709599355.8580] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 08:42:35 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 08:42:35 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 08:42:35 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 08:42:35 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 08:42:36 controlnode1 chronyd[735]: Selected source 185.125.190.58 (ntp.ubuntu.com)
+Mar  5 08:42:45 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 08:46:17 controlnode1 NetworkManager[610]: <info>  [1709599577.4386] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 08:46:18 controlnode1 rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="626" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Mar  5 08:51:17 controlnode1 systemd[1]: Starting Cleanup of Temporary Directories...
+Mar  5 08:51:17 controlnode1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Mar  5 08:51:17 controlnode1 systemd[1]: Finished Cleanup of Temporary Directories.
+Mar  5 08:51:17 controlnode1 NetworkManager[610]: <info>  [1709599877.4267] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 08:56:17 controlnode1 NetworkManager[610]: <info>  [1709600177.4466] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:01:17 controlnode1 NetworkManager[610]: <info>  [1709600477.4494] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:01:37 controlnode1 kernel: [ 1532.196659] e1000: enp0s3 NIC Link is Down
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.0855] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.0984] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.0989] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.0989] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:01:43 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:01:43 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:01:43 controlnode1 kernel: [ 1538.255410] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:01:43 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.1565] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:01:43 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:01:43 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:01:43 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.1951] device (enp0s3): carrier: link connected
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.1954] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2065] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2114] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2129] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2135] manager: NetworkManager state is now CONNECTING
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2149] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:01:43 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2233] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2355] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2698] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:01:43 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2806] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2904] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2914] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2932] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2960] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.2977] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.3163] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:01:43 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:01:43 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:01:43 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:01:43 controlnode1 NetworkManager[610]: <info>  [1709600503.9571] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 09:01:46 controlnode1 chronyd[735]: Selected source 185.125.190.57 (ntp.ubuntu.com)
+Mar  5 09:01:53 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:06:01 controlnode1 kernel: [ 1796.276994] e1000: enp0s3 NIC Link is Down
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.1836] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.1943] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.1944] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.1944] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:06:07 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:06:07 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:06:07 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2239] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:06:07 controlnode1 kernel: [ 1802.327588] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2282] device (enp0s3): carrier: link connected
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2298] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2364] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2378] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2389] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:07 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2456] manager: NetworkManager state is now CONNECTING
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2476] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2488] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:07 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:06:07 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.2622] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:06:07 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.3219] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:06:07 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.3278] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.3311] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.3321] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.3340] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.3360] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.3368] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:06:07 controlnode1 NetworkManager[610]: <info>  [1709600767.3387] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:06:07 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:06:17 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:06:17 controlnode1 NetworkManager[610]: <info>  [1709600777.4414] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:06:27 controlnode1 kernel: [ 1822.483799] e1000: enp0s3 NIC Link is Down
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.3870] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.3986] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.3986] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.3987] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4128] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:06:33 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:06:33 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:06:33 controlnode1 kernel: [ 1828.533396] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:06:33 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:06:33 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4486] device (enp0s3): carrier: link connected
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4488] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4535] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4545] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4556] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4559] manager: NetworkManager state is now CONNECTING
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4571] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4582] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.4715] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.5251] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:06:33 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.5297] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.5335] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.5336] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.5354] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.5373] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.5392] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:06:33 controlnode1 NetworkManager[610]: <info>  [1709600793.5420] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:06:33 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:06:33 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:06:33 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:06:36 controlnode1 NetworkManager[610]: <info>  [1709600796.0672] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 09:06:37 controlnode1 chronyd[735]: Selected source 185.125.190.57 (ntp.ubuntu.com)
+Mar  5 09:06:46 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:09:48 controlnode1 kernel: [ 2024.081959] e1000: enp0s3 NIC Link is Down
+Mar  5 09:09:48 controlnode1 kernel: [ 2024.081980] e1000 0000:00:03.0 enp0s3: Reset adapter
+Mar  5 09:09:51 controlnode1 NetworkManager[610]: <info>  [1709600991.0634] device (enp0s3): carrier: link connected
+Mar  5 09:09:51 controlnode1 NetworkManager[610]: <info>  [1709600991.0647] device (enp0s3): ip:dhcp4: restarting
+Mar  5 09:09:51 controlnode1 kernel: [ 2026.161882] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:09:51 controlnode1 NetworkManager[610]: <info>  [1709600991.0751] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:09:51 controlnode1 NetworkManager[610]: <info>  [1709600991.0751] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:09:51 controlnode1 NetworkManager[610]: <info>  [1709600991.0751] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:09:51 controlnode1 NetworkManager[610]: <info>  [1709600991.0752] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:09:51 controlnode1 NetworkManager[610]: <info>  [1709600991.0969] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:09:51 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:09:51 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:09:51 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:09:51 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:09:51 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:09:51 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:09:54 controlnode1 systemd[1]: Started Session 3 of User jhoana.
+Mar  5 09:09:56 controlnode1 python3[3085]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:09:57 controlnode1 python3[3161]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:09:58 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 09:09:58 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 09:09:58 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 09:09:58 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 09:09:59 controlnode1 python3[3172]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:09:59 controlnode1 python3[3172]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:00 controlnode1 python3[3172]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:00 controlnode1 python3[3172]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:01 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:10:02 controlnode1 python3[3172]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:02 controlnode1 python3[3172]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:06 controlnode1 python3[3172]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:06 controlnode1 python3[3172]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:06 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 09:10:06 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 09:10:06 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 09:10:06 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 09:10:07 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 09:10:07 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 09:10:07 controlnode1 python3[3188]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:07 controlnode1 python3[3188]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:08 controlnode1 python3[3188]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:08 controlnode1 python3[3188]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:10 controlnode1 python3[3188]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:10 controlnode1 python3[3188]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:14 controlnode1 python3[3188]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:14 controlnode1 python3[3188]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:14 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 09:10:14 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 09:10:16 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 09:10:16 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 09:10:16 controlnode1 python3[3204]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:16 controlnode1 python3[3204]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:16 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 09:10:16 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 09:10:17 controlnode1 kernel: [ 2052.369368] e1000: enp0s3 NIC Link is Down
+Mar  5 09:10:17 controlnode1 python3[3204]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:17 controlnode1 python3[3204]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:19 controlnode1 python3[3204]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:19 controlnode1 python3[3204]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:21 controlnode1 NetworkManager[610]: <info>  [1709601021.3040] device (enp0s3): carrier: link connected
+Mar  5 09:10:21 controlnode1 NetworkManager[610]: <info>  [1709601021.3053] device (enp0s3): ip:dhcp4: restarting
+Mar  5 09:10:21 controlnode1 kernel: [ 2056.402078] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:10:21 controlnode1 NetworkManager[610]: <info>  [1709601021.3146] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:10:21 controlnode1 NetworkManager[610]: <info>  [1709601021.3147] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:10:21 controlnode1 NetworkManager[610]: <info>  [1709601021.3147] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:10:21 controlnode1 NetworkManager[610]: <info>  [1709601021.3147] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:10:21 controlnode1 NetworkManager[610]: <info>  [1709601021.3545] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:10:21 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:10:21 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:10:21 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:10:21 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:10:21 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:10:21 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:10:28 controlnode1 systemd-resolved[512]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 172.30.0.5.
+Mar  5 09:10:31 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:10:43 controlnode1 python3[3204]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease
+Mar  5 09:10:43 controlnode1 python3[3204]: Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease
+Mar  5 09:10:43 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 09:10:43 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 09:10:48 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 09:10:48 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 09:10:48 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 09:10:48 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 09:10:50 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 09:10:50 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 09:11:17 controlnode1 NetworkManager[610]: <info>  [1709601077.4341] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:11:41 controlnode1 python3[3601]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:12:42 controlnode1 systemd[1]: session-3.scope: Deactivated successfully.
+Mar  5 09:12:42 controlnode1 systemd[1]: session-3.scope: Consumed 2.911s CPU time.
+Mar  5 09:15:15 controlnode1 kernel: [ 2350.732868] e1000: enp0s3 NIC Link is Down
+Mar  5 09:15:19 controlnode1 NetworkManager[610]: <info>  [1709601319.6718] device (enp0s3): carrier: link connected
+Mar  5 09:15:19 controlnode1 NetworkManager[610]: <info>  [1709601319.6719] device (enp0s3): ip:dhcp4: restarting
+Mar  5 09:15:19 controlnode1 kernel: [ 2354.765471] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:15:19 controlnode1 NetworkManager[610]: <info>  [1709601319.6826] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:15:19 controlnode1 NetworkManager[610]: <info>  [1709601319.6826] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:15:19 controlnode1 NetworkManager[610]: <info>  [1709601319.6827] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:15:19 controlnode1 NetworkManager[610]: <info>  [1709601319.6827] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:15:19 controlnode1 NetworkManager[610]: <info>  [1709601319.7061] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:15:19 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:15:19 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:15:19 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:15:19 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:15:19 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:15:19 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:15:29 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:15:33 controlnode1 kernel: [ 2368.876778] e1000: enp0s3 NIC Link is Down
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.7870] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.7987] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.7988] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.7988] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:15:39 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8240] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:15:39 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:15:39 controlnode1 kernel: [ 2374.926391] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:15:39 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:15:39 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8566] device (enp0s3): carrier: link connected
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8568] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:15:39 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8679] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8699] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8704] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8746] manager: NetworkManager state is now CONNECTING
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8782] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8811] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.8899] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.9478] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:15:39 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.9542] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.9585] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.9586] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.9588] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.9590] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.9591] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:15:39 controlnode1 NetworkManager[610]: <info>  [1709601339.9697] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:15:39 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:15:39 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:15:39 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:15:40 controlnode1 NetworkManager[610]: <info>  [1709601340.5801] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 09:15:43 controlnode1 chronyd[735]: Selected source 185.125.190.57 (ntp.ubuntu.com)
+Mar  5 09:15:50 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:16:08 controlnode1 systemd[1]: Started Session 4 of User jhoana.
+Mar  5 09:16:08 controlnode1 python3[3889]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:16:10 controlnode1 python3[3965]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:16:10 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 09:16:10 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 09:16:10 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 09:16:10 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 09:16:17 controlnode1 NetworkManager[610]: <info>  [1709601377.4389] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:16:21 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 09:16:21 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 09:16:22 controlnode1 python3[4355]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:17:01 controlnode1 CRON[4494]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  5 09:17:23 controlnode1 systemd[1]: session-4.scope: Deactivated successfully.
+Mar  5 09:17:23 controlnode1 systemd[1]: session-4.scope: Consumed 2.567s CPU time.
+Mar  5 09:21:17 controlnode1 NetworkManager[610]: <info>  [1709601677.4362] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:26:17 controlnode1 NetworkManager[610]: <info>  [1709601977.4407] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:27:58 controlnode1 systemd[1]: Started Session 6 of User jhoana.
+Mar  5 09:28:08 controlnode1 systemd[1]: session-6.scope: Deactivated successfully.
+Mar  5 09:30:01 controlnode1 CRON[4569]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Mar  5 09:30:36 controlnode1 systemd[1]: Started Run anacron jobs.
+Mar  5 09:30:36 controlnode1 anacron[4571]: Anacron 2.3 started on 2024-03-05
+Mar  5 09:30:36 controlnode1 anacron[4571]: Normal exit (0 jobs run)
+Mar  5 09:30:36 controlnode1 systemd[1]: anacron.service: Deactivated successfully.
+Mar  5 09:31:00 controlnode1 systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar  5 09:31:00 controlnode1 systemd[1]: Started Session 8 of User jhoana.
+Mar  5 09:31:00 controlnode1 systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Mar  5 09:31:00 controlnode1 systemd[1]: Finished Daily apt upgrade and clean activities.
+Mar  5 09:31:00 controlnode1 systemd[1]: session-8.scope: Deactivated successfully.
+Mar  5 09:31:17 controlnode1 NetworkManager[610]: <info>  [1709602277.4583] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:31:23 controlnode1 systemd[1]: Started Session 9 of User jhoana.
+Mar  5 09:31:27 controlnode1 systemd[1]: session-9.scope: Deactivated successfully.
+Mar  5 09:31:27 controlnode1 systemd[888]: Starting Notification regarding a new release of Ubuntu...
+Mar  5 09:31:47 controlnode1 check-new-release-gtk[4689]: WARNING:root:timeout reached, exiting
+Mar  5 09:31:47 controlnode1 systemd[888]: Finished Notification regarding a new release of Ubuntu.
+Mar  5 09:31:49 controlnode1 systemd[1]: Started Session 10 of User jhoana.
+Mar  5 09:31:51 controlnode1 python3[4759]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:31:52 controlnode1 python3[4835]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:31:52 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 09:31:52 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 09:31:53 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 09:31:53 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 09:32:00 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 09:32:00 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 09:32:18 controlnode1 python3[5291]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:33:18 controlnode1 systemd[1]: session-10.scope: Deactivated successfully.
+Mar  5 09:33:18 controlnode1 systemd[1]: session-10.scope: Consumed 6.567s CPU time.
+Mar  5 09:33:29 controlnode1 systemd[1]: Started Session 11 of User jhoana.
+Mar  5 09:33:30 controlnode1 python3[5403]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:33:31 controlnode1 python3[5479]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:33:31 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 09:33:31 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 09:33:32 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 09:33:32 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 09:33:33 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 09:33:33 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 09:34:35 controlnode1 update-notifier.desktop[5915]: /var/lib/dpkg/lock:
+Mar  5 09:34:38 controlnode1 systemd[1]: session-11.scope: Deactivated successfully.
+Mar  5 09:34:38 controlnode1 systemd[1]: session-11.scope: Consumed 2.079s CPU time.
+Mar  5 09:36:17 controlnode1 NetworkManager[610]: <info>  [1709602577.4495] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:37:06 controlnode1 systemd[1]: Started Session 12 of User jhoana.
+Mar  5 09:37:07 controlnode1 python3[5985]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:37:08 controlnode1 python3[6061]: ansible-apt Invoked with update_cache=True state=present update_cache_retries=5 update_cache_retry_max_delay=12 cache_valid_time=0 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:37:09 controlnode1 systemd[1]: Starting Update APT News...
+Mar  5 09:37:09 controlnode1 systemd[1]: Starting Update the local ESM caches...
+Mar  5 09:37:09 controlnode1 systemd[1]: apt-news.service: Deactivated successfully.
+Mar  5 09:37:09 controlnode1 systemd[1]: Finished Update APT News.
+Mar  5 09:37:11 controlnode1 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar  5 09:37:11 controlnode1 systemd[1]: Finished Update the local ESM caches.
+Mar  5 09:37:36 controlnode1 update-notifier.desktop[6493]: /var/lib/dpkg/lock:
+Mar  5 09:38:29 controlnode1 systemd[1]: session-12.scope: Deactivated successfully.
+Mar  5 09:38:29 controlnode1 systemd[1]: session-12.scope: Consumed 3.264s CPU time.
+Mar  5 09:39:41 controlnode1 kernel: [ 3816.345722] e1000: enp0s3 NIC Link is Down
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.2964] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3110] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3110] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3110] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:39:47 controlnode1 kernel: [ 3822.393200] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:39:47 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:39:47 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:39:47 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3690] device (enp0s3): carrier: link connected
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3718] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3752] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:39:47 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3956] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3984] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.3997] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.4028] manager: NetworkManager state is now CONNECTING
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.4054] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:39:47 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:39:47 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.4147] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.4333] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.4654] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:39:47 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.4758] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.5096] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.5110] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.5119] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.5148] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.5163] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:39:47 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:39:47 controlnode1 NetworkManager[610]: <info>  [1709602787.5225] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:39:47 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:39:48 controlnode1 NetworkManager[610]: <info>  [1709602788.1782] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 09:39:58 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:40:39 controlnode1 kernel: [ 3874.808203] e1000: enp0s3 NIC Link is Down
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.7377] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.7464] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.7464] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.7465] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:40:45 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:40:45 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:40:45 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.7815] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:40:45 controlnode1 kernel: [ 3880.857249] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:40:45 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.7913] device (enp0s3): carrier: link connected
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.7923] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:40:45 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:40:45 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8010] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8028] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8041] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8046] manager: NetworkManager state is now CONNECTING
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8065] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8076] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:40:45 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8205] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8443] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:40:45 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8493] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8813] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8816] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8819] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8857] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8858] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:40:45 controlnode1 NetworkManager[610]: <info>  [1709602845.8883] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:40:45 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:40:55 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:41:07 controlnode1 kernel: [ 3903.032259] e1000: enp0s3 NIC Link is Down
+Mar  5 09:41:13 controlnode1 NetworkManager[610]: <info>  [1709602873.9631] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:41:13 controlnode1 NetworkManager[610]: <info>  [1709602873.9747] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:41:13 controlnode1 NetworkManager[610]: <info>  [1709602873.9748] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:41:13 controlnode1 NetworkManager[610]: <info>  [1709602873.9748] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:41:13 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:41:13 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:41:13 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:41:13 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:41:13 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:41:13 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:41:13 controlnode1 NetworkManager[610]: <info>  [1709602873.9886] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:41:14 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:41:14 controlnode1 kernel: [ 3909.079993] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:41:14 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:41:14 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:41:14 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.0830] device (enp0s3): carrier: link connected
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.0832] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.0928] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.0957] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.0984] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1018] manager: NetworkManager state is now CONNECTING
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1039] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1064] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1135] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1385] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:41:14 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:41:14 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:41:14 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:41:14 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:41:14 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:41:14 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1550] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1585] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1597] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1616] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1675] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1700] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:41:14 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:41:14 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.1807] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:41:14 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:41:14 controlnode1 NetworkManager[610]: <info>  [1709602874.7741] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 09:41:17 controlnode1 chronyd[735]: Selected source 185.125.190.57 (ntp.ubuntu.com)
+Mar  5 09:41:17 controlnode1 NetworkManager[610]: <info>  [1709602877.4557] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:41:24 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:42:24 controlnode1 systemd[1]: Started Session 13 of User jhoana.
+Mar  5 09:42:25 controlnode1 python3[6827]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:42:27 controlnode1 python3[6909]: ansible-apt Invoked with upgrade=yes update_cache=True cache_valid_time=86400 state=present update_cache_retries=5 update_cache_retry_max_delay=12 purge=False force=False dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:43:49 controlnode1 systemd[1]: Starting Daily man-db regeneration...
+Mar  5 09:43:50 controlnode1 systemd[1]: man-db.service: Deactivated successfully.
+Mar  5 09:43:50 controlnode1 systemd[1]: Finished Daily man-db regeneration.
+Mar  5 09:46:17 controlnode1 NetworkManager[610]: <info>  [1709603177.7554] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:46:44 controlnode1 NetworkManager[610]: <info>  [1709603204.3422] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:46:44 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:46:44 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:46:44 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:46:44 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:46:50 controlnode1 kernel: [ 4245.749259] e1000: enp0s3 NIC Link is Down
+Mar  5 09:46:54 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.6828] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.6947] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.6948] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.6948] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:46:56 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:46:56 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:46:56 controlnode1 kernel: [ 4251.798625] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7068] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:46:56 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:46:56 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:46:56 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:46:56 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7594] device (enp0s3): carrier: link connected
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7613] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7774] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7803] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7811] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:46:56 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7868] manager: NetworkManager state is now CONNECTING
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7898] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.7938] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8028] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8611] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:46:56 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8693] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8765] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8767] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8779] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8800] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8814] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:46:56 controlnode1 NetworkManager[610]: <info>  [1709603216.8831] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:46:56 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:47:00 controlnode1 kernel: [ 4255.829775] e1000: enp0s3 NIC Link is Down
+Mar  5 09:47:00 controlnode1 kernel: [ 4255.829790] e1000 0000:00:03.0 enp0s3: Reset adapter
+Mar  5 09:47:02 controlnode1 NetworkManager[610]: <info>  [1709603222.8393] device (enp0s3): carrier: link connected
+Mar  5 09:47:02 controlnode1 NetworkManager[610]: <info>  [1709603222.8417] device (enp0s3): ip:dhcp4: restarting
+Mar  5 09:47:02 controlnode1 kernel: [ 4257.909283] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:47:02 controlnode1 NetworkManager[610]: <info>  [1709603222.8510] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:47:02 controlnode1 NetworkManager[610]: <info>  [1709603222.8511] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:47:02 controlnode1 NetworkManager[610]: <info>  [1709603222.8511] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:47:02 controlnode1 NetworkManager[610]: <info>  [1709603222.8512] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:47:02 controlnode1 NetworkManager[610]: <info>  [1709603222.8844] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:47:02 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:47:02 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:47:08 controlnode1 NetworkManager[610]: <info>  [1709603228.9752] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 09:47:11 controlnode1 chronyd[735]: Selected source 185.125.190.56 (ntp.ubuntu.com)
+Mar  5 09:47:19 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:47:20 controlnode1 systemd[1]: session-13.scope: Deactivated successfully.
+Mar  5 09:47:20 controlnode1 systemd[1]: session-13.scope: Consumed 2.839s CPU time.
+Mar  5 09:47:23 controlnode1 systemd[1]: Started Session 14 of User jhoana.
+Mar  5 09:47:25 controlnode1 python3[7100]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:47:31 controlnode1 python3[7182]: ansible-apt Invoked with update_cache=True cache_valid_time=86400 state=present update_cache_retries=5 update_cache_retry_max_delay=12 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:47:59 controlnode1 kernel: [ 4314.356200] e1000: enp0s3 NIC Link is Down
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.2901] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.2987] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.2988] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.2988] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:48:05 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:48:05 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.3303] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:48:05 controlnode1 kernel: [ 4320.405355] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.3422] device (enp0s3): carrier: link connected
+Mar  5 09:48:05 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.3505] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:48:05 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.3955] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.4005] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.4029] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.4042] manager: NetworkManager state is now CONNECTING
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.4085] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.4169] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.4361] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.9065] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:48:05 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.9357] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:48:05 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:48:05 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.9665] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.9667] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.9670] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.9672] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.9673] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:48:05 controlnode1 NetworkManager[610]: <info>  [1709603285.9710] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:48:09 controlnode1 kernel: [ 4324.436398] e1000: enp0s3 NIC Link is Down
+Mar  5 09:48:09 controlnode1 kernel: [ 4324.436438] e1000 0000:00:03.0 enp0s3: Reset adapter
+Mar  5 09:48:11 controlnode1 NetworkManager[610]: <info>  [1709603291.4473] device (enp0s3): carrier: link connected
+Mar  5 09:48:11 controlnode1 NetworkManager[610]: <info>  [1709603291.4483] device (enp0s3): ip:dhcp4: restarting
+Mar  5 09:48:11 controlnode1 NetworkManager[610]: <info>  [1709603291.4586] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:48:11 controlnode1 NetworkManager[610]: <info>  [1709603291.4586] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:48:11 controlnode1 NetworkManager[610]: <info>  [1709603291.4586] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:48:11 controlnode1 NetworkManager[610]: <info>  [1709603291.4587] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:48:11 controlnode1 kernel: [ 4326.516302] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:48:11 controlnode1 NetworkManager[610]: <info>  [1709603291.5781] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:48:21 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:48:34 controlnode1 systemd[1]: session-14.scope: Deactivated successfully.
+Mar  5 09:48:34 controlnode1 systemd[1]: session-14.scope: Consumed 1.298s CPU time.
+Mar  5 09:49:03 controlnode1 kernel: [ 4378.932473] e1000: enp0s3 NIC Link is Down
+Mar  5 09:49:09 controlnode1 NetworkManager[610]: <info>  [1709603349.8713] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:49:09 controlnode1 NetworkManager[610]: <info>  [1709603349.8827] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:49:09 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:49:09 controlnode1 NetworkManager[610]: <info>  [1709603349.8828] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:49:09 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:49:09 controlnode1 NetworkManager[610]: <info>  [1709603349.8828] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:49:09 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:49:09 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:49:09 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:49:09 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:49:09 controlnode1 NetworkManager[610]: <info>  [1709603349.8966] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:49:09 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:49:09 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:49:09 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:49:09 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:49:09 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 09:49:09 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9436] device (enp0s3): carrier: link connected
+Mar  5 09:49:13 controlnode1 kernel: [ 4389.011698] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9448] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9503] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9518] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9522] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9538] manager: NetworkManager state is now CONNECTING
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9552] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9586] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9623] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:49:13 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:49:13 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:49:13 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9757] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:49:13 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:49:13 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:49:13 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9892] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9920] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9934] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9952] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:49:13 controlnode1 NetworkManager[610]: <info>  [1709603353.9988] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:49:14 controlnode1 NetworkManager[610]: <info>  [1709603354.0004] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:49:14 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:49:14 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:49:14 controlnode1 NetworkManager[610]: <info>  [1709603354.0112] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:49:14 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:49:23 controlnode1 systemd-resolved[512]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 172.30.0.5.
+Mar  5 09:49:24 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:49:24 controlnode1 systemd-resolved[512]: Using degraded feature set TCP instead of UDP for DNS server 172.30.0.5.
+Mar  5 09:49:24 controlnode1 systemd-resolved[512]: Using degraded feature set UDP instead of TCP for DNS server 172.30.0.5.
+Mar  5 09:49:24 controlnode1 systemd-resolved[512]: Using degraded feature set TCP instead of UDP for DNS server 172.30.0.5.
+Mar  5 09:49:24 controlnode1 systemd-resolved[512]: Using degraded feature set UDP instead of TCP for DNS server 172.30.0.5.
+Mar  5 09:49:26 controlnode1 kernel: [ 4401.107317] e1000: enp0s3 NIC Link is Down
+Mar  5 09:49:26 controlnode1 kernel: [ 4401.107340] e1000 0000:00:03.0 enp0s3: Reset adapter
+Mar  5 09:49:28 controlnode1 NetworkManager[610]: <info>  [1709603368.1199] device (enp0s3): carrier: link connected
+Mar  5 09:49:28 controlnode1 NetworkManager[610]: <info>  [1709603368.1210] device (enp0s3): ip:dhcp4: restarting
+Mar  5 09:49:28 controlnode1 kernel: [ 4403.187307] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:49:28 controlnode1 NetworkManager[610]: <info>  [1709603368.1311] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:49:28 controlnode1 NetworkManager[610]: <info>  [1709603368.1312] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:49:28 controlnode1 NetworkManager[610]: <info>  [1709603368.1312] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:49:28 controlnode1 NetworkManager[610]: <info>  [1709603368.1313] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:49:28 controlnode1 NetworkManager[610]: <info>  [1709603368.1505] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:49:28 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:49:28 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:49:28 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:49:28 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:49:28 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:49:28 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:49:34 controlnode1 kernel: [ 4409.235065] e1000: enp0s3 NIC Link is Down
+Mar  5 09:49:38 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.1707] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.1828] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.1828] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.1828] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.1949] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:49:40 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:49:40 controlnode1 kernel: [ 4415.283999] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:49:40 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2193] device (enp0s3): carrier: link connected
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2195] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2289] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2310] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2316] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2362] manager: NetworkManager state is now CONNECTING
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2386] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2459] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:40 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:49:40 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2580] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2748] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:49:40 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2802] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2841] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2843] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2845] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2847] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2848] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:49:40 controlnode1 NetworkManager[610]: <info>  [1709603380.2933] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:49:40 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:49:40 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:49:40 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:49:50 controlnode1 chronyd[735]: Selected source 185.125.190.56 (ntp.ubuntu.com)
+Mar  5 09:49:50 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:49:50 controlnode1 systemd-resolved[512]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 172.30.0.5.
+Mar  5 09:49:51 controlnode1 NetworkManager[610]: <info>  [1709603391.0675] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 09:49:51 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:49:51 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:49:51 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:49:51 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:50:01 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:51:17 controlnode1 NetworkManager[610]: <info>  [1709603477.4388] dhcp4 (enp0s8): state changed new lease, address=192.168.56.106
+Mar  5 09:52:20 controlnode1 systemd[1]: Started Session 15 of User jhoana.
+Mar  5 09:52:21 controlnode1 python3[7548]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:52:23 controlnode1 python3[7630]: ansible-apt Invoked with update_cache=True cache_valid_time=86400 state=present update_cache_retries=5 update_cache_retry_max_delay=12 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:52:27 controlnode1 python3[7661]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:52:37 controlnode1 kernel: [ 4592.687456] e1000: enp0s3 NIC Link is Down
+Mar  5 09:52:43 controlnode1 NetworkManager[610]: <info>  [1709603563.6266] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:52:43 controlnode1 NetworkManager[610]: <info>  [1709603563.6391] dhcp4 (enp0s3): canceled DHCP transaction
+Mar  5 09:52:43 controlnode1 NetworkManager[610]: <info>  [1709603563.6392] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:52:43 controlnode1 NetworkManager[610]: <info>  [1709603563.6392] dhcp4 (enp0s3): state changed no lease
+Mar  5 09:52:43 controlnode1 avahi-daemon[605]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Mar  5 09:52:43 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:52:43 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Mar  5 09:52:43 controlnode1 avahi-daemon[605]: Withdrawing address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.
+Mar  5 09:52:43 controlnode1 avahi-daemon[605]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:52:43 controlnode1 avahi-daemon[605]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Mar  5 09:52:43 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: no
+Mar  5 09:52:43 controlnode1 systemd-resolved[512]: enp0s3: Bus client reset DNS server list.
+Mar  5 09:52:43 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:52:43 controlnode1 NetworkManager[610]: <info>  [1709603563.6761] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:52:43 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:52:43 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:52:43 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 222.127.1.26 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 185.125.190.57 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 222.127.1.22 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 222.127.1.25 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 222.127.1.21 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 91.189.91.157 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 222.127.1.24 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 222.127.1.20 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 222.127.1.27 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 185.125.190.58 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 222.127.1.19 offline
+Mar  5 09:52:43 controlnode1 chronyd[735]: Can't synchronise: no selectable sources
+Mar  5 09:52:43 controlnode1 chronyd[735]: Source 185.125.190.56 offline
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7046] device (enp0s3): carrier: link connected
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7069] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7137] policy: auto-activating connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:52:47 controlnode1 kernel: [ 4602.768624] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7218] device (enp0s3): Activation: starting connection 'Wired connection 1' (d2f34404-7c89-300f-9aa9-efc2e6f19285)
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7228] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7252] manager: NetworkManager state is now CONNECTING
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7290] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7305] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7373] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar  5 09:52:47 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::d4ff:e27c:f992:6e4d.
+Mar  5 09:52:47 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv6 for mDNS.
+Mar  5 09:52:47 controlnode1 avahi-daemon[605]: Registering new address record for fe80::d4ff:e27c:f992:6e4d on enp0s3.*.
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7579] dhcp4 (enp0s3): state changed new lease, address=10.0.2.15
+Mar  5 09:52:47 controlnode1 avahi-daemon[605]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Mar  5 09:52:47 controlnode1 avahi-daemon[605]: New relevant interface enp0s3.IPv4 for mDNS.
+Mar  5 09:52:47 controlnode1 avahi-daemon[605]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7791] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7851] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7857] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7872] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7925] manager: NetworkManager state is now CONNECTED_SITE
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7931] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Mar  5 09:52:47 controlnode1 NetworkManager[610]: <info>  [1709603567.7940] device (enp0s3): Activation: successful, device activated.
+Mar  5 09:52:47 controlnode1 systemd-resolved[512]: enp0s3: Bus client set default route setting: yes
+Mar  5 09:52:47 controlnode1 systemd-resolved[512]: enp0s3: Bus client set DNS server list to: 172.30.0.5
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 222.127.1.26 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 185.125.190.57 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 222.127.1.22 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 222.127.1.25 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 185.125.190.56 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 222.127.1.21 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 91.189.91.157 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 222.127.1.24 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 222.127.1.20 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 222.127.1.27 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 185.125.190.58 online
+Mar  5 09:52:47 controlnode1 chronyd[735]: Source 222.127.1.19 online
+Mar  5 09:52:57 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:52:58 controlnode1 systemd-resolved[512]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 172.30.0.5.
+Mar  5 09:52:58 controlnode1 NetworkManager[610]: <info>  [1709603578.7616] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar  5 09:52:58 controlnode1 dbus-daemon[607]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=610 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  5 09:52:58 controlnode1 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  5 09:52:58 controlnode1 dbus-daemon[607]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  5 09:52:58 controlnode1 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  5 09:53:01 controlnode1 chronyd[735]: Selected source 185.125.190.56 (ntp.ubuntu.com)
+Mar  5 09:53:08 controlnode1 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Mar  5 09:53:28 controlnode1 systemd[1]: session-15.scope: Deactivated successfully.
+Mar  5 09:53:28 controlnode1 systemd[1]: session-15.scope: Consumed 2.011s CPU time.
+Mar  5 09:53:38 controlnode1 systemd[1]: Started Session 16 of User jhoana.
+Mar  5 09:53:39 controlnode1 python3[7866]: ansible-ping Invoked with data=pong
+Mar  5 09:54:39 controlnode1 systemd[1]: session-16.scope: Deactivated successfully.
+Mar  5 09:55:20 controlnode1 systemd[1]: Started Session 17 of User jhoana.
+Mar  5 09:55:21 controlnode1 python3[7930]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:55:22 controlnode1 python3[8012]: ansible-apt Invoked with update_cache=True cache_valid_time=86400 state=present update_cache_retries=5 update_cache_retry_max_delay=12 purge=False force=False upgrade=no dpkg_options=force-confdef,force-confold autoremove=False autoclean=False fail_on_autoremove=False only_upgrade=False force_apt_get=False clean=False allow_unauthenticated=False allow_downgrade=False allow_change_held_packages=False lock_timeout=60 package=None deb=None default_release=None install_recommends=None policy_rc_d=None
+Mar  5 09:55:24 controlnode1 python3[8041]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mar  5 09:55:25 controlnode1 python3[8117]: ansible-ansible.legacy.slurp Invoked with src=/var/log/syslog
